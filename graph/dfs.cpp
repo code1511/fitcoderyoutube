@@ -44,7 +44,7 @@ void dfs_recursive(vector<int> graph[], vector<bool>& visited, int node)
 int main() {
     int V = 7; // vertices
     vector<int> graph[V];
-
+   //adding vertices to the graph
     addEdge(graph, 0, 1);
     addEdge(graph, 0, 3);
     addEdge(graph, 1, 2);
